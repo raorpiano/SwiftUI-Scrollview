@@ -33,7 +33,6 @@ struct AlbumImage: View {
                 .aspectRatio(contentMode: .fit)
                 .padding(8)
                 .frame(width: maxWidth, height: maxWidth)
-                .cornerRadius(10)
                 .onReceive(imageLoader.$image) { image in
                     self.isLoaded.toggle()
                     self.image = image
@@ -50,7 +49,6 @@ struct AlbumImage: View {
 struct AlbumsView: View {
     @ObservedObject var viewModel: AlbumsViewModel
     @State private var albums: [Album] = [Album]()
-//    @State private var isLoaded = false
     
     var body: some View {
         switch viewModel.state {

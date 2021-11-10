@@ -85,7 +85,6 @@
 				76911C06273B4BAC00626289 /* SwiftUIScrollViewApp.swift */,
 				76911C08273B4BAC00626289 /* AlbumsView.swift */,
 				76911C1C273BADC600626289 /* AlbumDetailsView.swift */,
-				76911C14273B4BD600626289 /* AlbumsViewModel.swift */,
 				76911C1F273BC68200626289 /* Models */,
 				76911C1E273BC64100626289 /* Networking */,
 				76911C0C273B4BAE00626289 /* Preview Content */,
@@ -113,6 +112,7 @@
 		76911C1F273BC68200626289 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				76911C14273B4BD600626289 /* AlbumsViewModel.swift */,
 				76911C20273BC6DB00626289 /* NetworkResponse.swift */,
 			);
 			path = Models;
@@ -370,6 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -401,6 +402,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

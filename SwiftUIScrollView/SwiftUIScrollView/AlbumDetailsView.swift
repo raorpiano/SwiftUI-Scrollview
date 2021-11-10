@@ -26,14 +26,15 @@ struct AlbumDetailsView: View {
     @State private var isLoaded: Bool = false
     
     var body: some View {
-        GeometryReader { g in
-            VStack{
+        GeometryReader { geo in
+            VStack (
+                spacing: 8
+            ){
                 Image(uiImage: image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .padding(8)
-                    .frame(width: g.size.width-20, height: g.size.width-20)
-                    .cornerRadius(10)
+//                    .frame(width: g.size.width-20, height: g.size.width-20)
                     .onReceive(imageLoader.$image) { image in
                         self.isLoaded = true
                         self.image = image
